@@ -1,0 +1,2 @@
+import test from "node:test";import assert from "node:assert/strict";import {createEnvelope} from "../src/index.js";
+test("creates action envelope",()=>{const e=createEnvelope("agent-1","read","db:users");assert.equal(e.agent.id,"agent-1");assert.equal(e.action.name,"read");});
