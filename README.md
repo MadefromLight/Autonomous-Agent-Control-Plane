@@ -1,9 +1,9 @@
 # Autonomous Agent Control Plane
 
-The integration layer for the agent infrastructure portfolio.
+The integration layer for the autonomous-agent infrastructure portfolio.
 
-It will coordinate policy, evidence, supply-chain security, discovery, reliability, provenance, economics and incident response.
+It coordinates policy, evidence, supply-chain security, discovery, reliability, provenance, economics and incident response.
 
-The MVP defines a common typed action envelope so the individual components can interoperate without duplicating their implementations.
+The MVP defines a common typed action envelope so the components can interoperate without duplicating their implementations.
 
 License: MIT
